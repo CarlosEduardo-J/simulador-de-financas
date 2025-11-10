@@ -1,0 +1,21 @@
+# Arquivos de Sistema Operacional
+.DS_Store # Mac
+Thumbs.db # Windows
+
+# Python
+# Arquivos de bytecode compilados gerados pelo interpretador Python
+__pycache__/
+*.pyc
+
+# Arquivos IDEs Comuns (VS Code)
+# Ignora as configurações locais do VS Code
+.vscode/
+
+# Arquivos Gerados pelo Seu Programa
+# Ignora o relatório de saída, pois ele muda a cada execução
+relatorio_*.txt
+*.txt
+
+# Ignora o arquivo de transações para que cada desenvolvedor/clone 
+# comece o projeto com os dados zerados (opcional, mas recomendado para GitHub)
+# dados/transacoes.csv
