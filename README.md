@@ -28,6 +28,24 @@ O programa oferece uma interface de menu simples e direta:
 | **5** | Sair do Programa | `menu.py` |
 
 ---
+## 🏗️ Estrutura do Projeto
+
+A organização do código em diretórios separados é fundamental para a modularidade do projeto:
+
+```bash
+simulador-financas/
+├── dados/
+│   └── transacoes.csv        # 📥 Arquivo CSV para armazenamento de dados.
+├── src/
+│   ├── main.py               # ▶️ Ponto de entrada da aplicação.
+│   ├── menu.py               # 🧭 Lógica de navegação.
+│   ├── relatorios.py         # 📊 Funções para cálculo e geração de TXT.
+│   └── transacoes.py         # ➕ Funções para adicionar, listar e calcular saldo.
+├── .gitignore                # Regras para ignorar arquivos temporários.
+└── README.md                 # Documentação principal.
+```
+
+---
 
 ## 🛠️ Como Iniciar
 
